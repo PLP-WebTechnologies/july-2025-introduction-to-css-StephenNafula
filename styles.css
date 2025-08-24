@@ -1,0 +1,46 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ensures padding & border are included in total width/height */
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    padding: 20px; /* Adds spacing inside body before content starts */
+}
+
+/* Header Styling */
+header {
+    text-align: center;
+    margin-bottom: 20px; /* Creates space below header before main content */
+}
+
+/* Container Class */
+.container {
+    background-color: #ffffff; /* Content background */
+    border: 2px solid #007BFF; /* Border surrounds padding + content */
+    padding: 15px;  /* Space between content (text) and border */
+    margin: 15px 0; /* Space outside the border separating boxes */
+    border-radius: 8px; /* Smooths box corners */
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1); /* Extra visual depth */
+}
+
+/* Special Box Styling */
+.special-box {
+    background-color: #e3f2fd; /* Different background to highlight */
+    border: 3px dashed #2196F3; /* Different border style & thickness */
+    padding: 25px; /* Larger padding -> pushes text further from border */
+    margin: 20px 0; /* Larger margin -> increases spacing between boxes */
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    margin-top: 30px; /* Pushes footer away from main content */
+    font-size: 14px;
+    color: #555;
+}
